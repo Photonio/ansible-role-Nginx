@@ -1,2 +1,4 @@
 ---
-# defaults file for try
+nginx_source: build #default
+
+git_version: latest

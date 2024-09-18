@@ -1,0 +1,11 @@
+---
+- name: source
+  include_tasks: "source:/{{ nginx_source }}/main.yml"
+  when: nginx_source != "default"
+
+- name: source default
+  include_tasks: "pkg.yml"
+  when: nginx_source == "default"
+
+- debug:
+    msg: "{{ nginx_source }}"
