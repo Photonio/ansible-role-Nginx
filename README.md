@@ -1,7 +1,9 @@
-Role Name
+Nginx server
 =========
 
-A brief description of the role goes here.
+https://en.wikipedia.org/wiki/Nginx
+
+https://nginx.org/en/
 
 Requirements
 ------------
